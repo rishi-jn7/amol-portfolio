@@ -42,7 +42,7 @@ export function Display({ selectedCategory }) {
             <div className="thumbnail-container" key={project ? project.title : ""}>
                 {project && (
                     <Link to={`/projects/${project.slug}`}>
-                        <img className="thumbnail" src={project.thumbnail} alt={project.title} />
+                        <img loading="eager" className="thumbnail" src={project.thumbnail} alt={project.title} />
                     </Link>
                 )}
             </div>
