@@ -1,11 +1,12 @@
 import { experience } from '../../data/data.js'
+import amolPhoto from "../../assets/amol.jpg"
 import "./About.css";
 
 export default function About() {
   return (
     <div style={{ maxWidth: "800px", margin: "0 auto" }}>
       <div className="d-flex gap-5">
-        <img className="profile-img" src="src/assets/amol.jpg" alt="amol jain" />
+        <img className="profile-img" src={amolPhoto} alt="amol jain" />
         <div>
           <div className='about'>
             I’m Amol Jain, currently working as a graphic designer, 3D modeler & video editor

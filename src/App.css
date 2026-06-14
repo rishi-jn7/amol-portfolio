@@ -1,22 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* .carousel-scroll {
   scrollbar-width: none; 
   -ms-overflow-style: none; 
@@ -26,22 +7,18 @@
   display: none; 
 } */
 
-.carousel-scroll {
+/* .carousel-scroll {
   scrollbar-width: none;
   -ms-overflow-style: none;
-
   cursor: grab;
-
   user-select: none;
-
-  /* scroll-behavior: smooth; */
-}
+} */
 
 /* .carousel-scroll:active {
   cursor: grabbing;
 } */
 
-.carousel-scroll::-webkit-scrollbar {
+/* .carousel-scroll::-webkit-scrollbar {
   display: none;
 }
 
@@ -57,7 +34,6 @@
 .carousel-card {
   max-width: 400px;
   max-height: 400px;
-  /* width:100%; */
 
   border-radius: 16px;
-}
+} */

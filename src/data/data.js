@@ -1,11 +1,19 @@
 export const categories = ["Branding & Campaign", "Publication", "Research", "Interface", "Photography", "3D", "Experience"]
 
+import quriousThumb from "../assets/thumbnails/qurious.png"
+import zenithThumb from "../assets/thumbnails/zenith.png"
+import pictogramThumb from "../assets/thumbnails/pictogram.png"
+import stepupThumb from "../assets/thumbnails/stepup.png"
+import typoThumb from "../assets/thumbnails/typo_cards.png"
+import huluThumb from "../assets/thumbnails/hulu.png"
+import inviThumb from "../assets/thumbnails/invi.png"
+
 export const projects = [
     {
         "slug": "qurious-minds",
         "title": "Qurious Minds App",
         "category": categories[0],
-        "thumbnail": "src/assets/thumbnails/qurious.png"
+        "thumbnail": quriousThumb
     },
     {
         "slug": "zenith",
@@ -13,57 +21,62 @@ export const projects = [
         "category": categories[0],
         "tags": ["Publication", "College"],
         "description": "Axis Consulting, a pro bono consulting club at Simon Fraser University, needed a bold rebrand to reignite engagement. As the Design Director, I developed a striking visual identity to inspire and captivate its audience.",
-        "thumbnail": "src/assets/thumbnails/zenith.png"
+        "thumbnail": zenithThumb
     },
     {
         "slug": "pictogram",
         "title": "Pictogram Timeline",
         "category": categories[0],
-        "thumbnail": "src/assets/thumbnails/pictogram.png"
+        "thumbnail": pictogramThumb
     },
     {
         "slug": "invi",
         "title": "Invi Dashboard",
         "category": categories[0],
-        "thumbnail": "src/assets/thumbnails/invi.png"
+        "thumbnail": inviThumb
     },
     {
         "slug": "hulu",
         "title": "Hulu Marketing Campaign",
         "category": categories[0],
-        "thumbnail": "src/assets/thumbnails/hulu.png"
+        "thumbnail": huluThumb
     },
     {
         "slug": "typo",
         "title": "Typo Cards",
         "category": categories[0],
-        "thumbnail": "src/assets/thumbnails/typo_cards.png"
+        "thumbnail": typoThumb
     },
     {
         "slug": "stepup",
         "title": "StepUp Branding",
         "category": categories[0],
-        "thumbnail": "src/assets/thumbnails/stepup.png"
+        "thumbnail": stepupThumb
     }
 ]
+
+
+import gbLogo from "../assets/experience/gb.jpg"
+import iitbLogo from "../assets/experience/iitb.png"
+import scoreleapLogo from "../assets/experience/scoreleap.jpg"
 
 export const experience = [
     {
         "company": "Graphics Beyond",
         "role": "Graphic Designer",
         "duration": "Jun 2025 - Present",
-        "logo": "src/assets/experience/gb.jpg"
+        "logo": gbLogo
     },
     {
         "company": "IDC IIT Bombay",
         "role": "Graphic Design Intern",
         "duration": "Dec 2024 - May 2025",
-        "logo": "src/assets/experience/iitb.png"
+        "logo": iitbLogo
     },
     {
         "company": "Scoreleap",
         "role": "Graphic Design Intern",
         "duration": "Mar 2024 - Apr 2025",
-        "logo": "src/assets/experience/scoreleap.jpg"
+        "logo": scoreleapLogo
     }
 ]
