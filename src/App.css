@@ -1,0 +1,63 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .carousel-scroll {
+  scrollbar-width: none; 
+  -ms-overflow-style: none; 
+}
+
+.carousel-scroll::-webkit-scrollbar {
+  display: none; 
+} */
+
+.carousel-scroll {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+
+  cursor: grab;
+
+  user-select: none;
+
+  /* scroll-behavior: smooth; */
+}
+
+/* .carousel-scroll:active {
+  cursor: grabbing;
+} */
+
+.carousel-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel-track {
+  cursor: grab;
+  user-select: none;
+}
+
+.carousel-track:active {
+  cursor: grabbing;
+}
+
+.carousel-card {
+  max-width: 400px;
+  max-height: 400px;
+  /* width:100%; */
+
+  border-radius: 16px;
+}

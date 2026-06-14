@@ -1,0 +1,13 @@
+.nav-rule {
+    width: 100%;
+    margin: 0px 50px;
+    align-self: center;
+    border-top: 0.6px solid #CECECE;
+}
+
+.label {
+    width: 118.89px;
+    flex-shrink: 0;
+    text-align: right;
+    align-self: center;
+}

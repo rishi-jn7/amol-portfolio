@@ -1,0 +1,14 @@
+.profile-img {
+  width: 200px;
+  height: 200px;
+  margin-left: 100px;
+}
+
+.about{
+    text-align: justify;
+    line-height: 1.8;
+}
+
+.experience-table {
+  margin-left: 100px;
+}

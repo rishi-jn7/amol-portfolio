@@ -1,0 +1,40 @@
+.project-page{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    max-width: 1000px;
+    align-self: center;
+    color: #818181;
+}
+
+.project-title{
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.project-tags {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.project-tag {
+  color: #818181 !important;
+  border: 1px solid #949494 !important;
+  border-radius: 25px !important;
+  background: transparent !important;
+  transition: all 0.2s ease !important;
+  padding: 2px 10px 0px !important;
+}
+
+.project-description {
+  margin-top: 20px;
+  font-weight: 400;
+  color: #818181;
+  font-size: 1rem;
+  line-height: 29.19px;
+  max-width: 800px;
+  text-align: left;
+}
