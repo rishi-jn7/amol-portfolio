@@ -5,11 +5,20 @@
 import { Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
 import Home from './pages/Home/Home'
+import { useEffect } from "react";
+import { projects } from "./data/data";
 // import About from './components/Display/About'
 import Project from './pages/Project/Project'
 import './App.css'
 
 export default function App() {
+
+  useEffect(() => {
+    projects.forEach(project => {
+      const img = new Image();
+      img.src = project.thumbnail;
+    });
+  }, []);
 
   return (
     <Routes>
