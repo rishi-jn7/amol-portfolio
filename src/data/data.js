@@ -1,12 +1,12 @@
 export const categories = ["Branding & Campaign", "Publication", "Research", "Interface", "Photography", "3D", "Experience"]
 
-import quriousThumb from "../assets/thumbnails/qurious.png"
-import zenithThumb from "../assets/thumbnails/zenith.png"
-import pictogramThumb from "../assets/thumbnails/pictogram.png"
-import stepupThumb from "../assets/thumbnails/stepup.png"
-import typoThumb from "../assets/thumbnails/typo_cards.png"
-import huluThumb from "../assets/thumbnails/hulu.png"
-import inviThumb from "../assets/thumbnails/invi.png"
+import quriousThumb from "../assets/thumbnails/qurious.webp"
+import zenithThumb from "../assets/thumbnails/zenith.webp"
+import pictogramThumb from "../assets/thumbnails/pictogram.webp"
+import stepupThumb from "../assets/thumbnails/stepup.webp"
+import typoThumb from "../assets/thumbnails/typo_cards.webp"
+import huluThumb from "../assets/thumbnails/hulu.webp"
+import inviThumb from "../assets/thumbnails/invi.webp"
 
 export const projects = [
     {
